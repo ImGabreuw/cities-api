@@ -1,0 +1,11 @@
+### FindAll countries
+GET localhost:8080/countries
+
+### FindAll countries with custom page
+GET localhost:8080/countries?page=0&size=10&sort=name,asc
+
+### FindAll states
+GET localhost:8080/states
+
+### FindAll cities
+GET localhost:8080/cities
